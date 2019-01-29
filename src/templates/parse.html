@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+
+{% block content %}
+    <div class="container">
+        <h1>Parse and Clean</h1>
+        <form role="form" action="/" method="POST">
+            <label for="text_to_parse">Paste blob here:</label>
+            <br>
+            <textarea name="text_to_parse" cols="65" rows="20"></textarea>
+            <br>
+            <button type="button submit" class="btn-primary" value="Parse Data From Blob.">Get Data</button>
+        </form>
+    </div>
+{% endblock %}
