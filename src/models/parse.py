@@ -1,7 +1,4 @@
-import datetime
 import re
-
-from flask import jsonify
 
 from src.models.entry import Entry
 
@@ -30,7 +27,8 @@ def parse_data(data):
     my_entry = Entry(request_id=id_match,
                      created_date=date_match,
                      entity_name=entity_match,
-                     address=address_match)
+                     address=address_match,
+                     _id=None)
 
     return my_entry
 
