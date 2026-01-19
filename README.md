@@ -1,6 +1,9 @@
 LogSnips: Human-in-the-Loop Security Parser
 
+Developed as a high-velocity solution during peak operational seasons to bypass the constraints of proprietary C# risk-tooling. By deploying as a Flask-based internal web service, the tool provided a centralized, zero-install interface for an entire team of agents, reducing manual data entry time when volume was at its highest.
+
 LogSnips is a lightweight, extensible Flask framework designed to bridge the gap between raw, unstructured log data and structured security databases. Originally developed as an efficiency tool to reduce manual copy-pasting in operations, it has evolved into a forensic tool for Security Analysts to parse, review, and categorize network indicators.
+
 
 📋 General Intended Use
 
