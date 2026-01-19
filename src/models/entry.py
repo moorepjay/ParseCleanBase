@@ -6,7 +6,7 @@ from src.common.database import Database
 
 class Entry(object):
 
-    def __init__(self, request_id, created_date, entity_name, address, reviewer_name="v-prmoor",
+    def __init__(self, request_id, created_date, entity_name, address, reviewer_name="",
                  reviewed_date=datetime.date.today().isoformat(),
                  current_utc_time=datetime.datetime.utcnow().time().strftime("%H:%M"),
                  final_decision=None, comments=None, _id=None):
